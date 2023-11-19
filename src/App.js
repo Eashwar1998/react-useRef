@@ -23,7 +23,8 @@ export default function App() {
   return (
     <div>
       <p>
-        Elasped Time : 5214sd5<span>{sp.toFixed(3)}</span>
+        Elasped Time : asd<span>{sp.toFixed(3)}</span>
+        changes from br1
       </p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
