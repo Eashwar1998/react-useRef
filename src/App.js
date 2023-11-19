@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import './style.css';
+import React, { useState, useRef } from "react";
+import "./style.css";
 
 export default function App() {
   const [start, setStart] = useState(null);
@@ -23,7 +23,7 @@ export default function App() {
   return (
     <div>
       <p>
-        Elasped Time : <span>{sp.toFixed(3)}</span>
+        Elasped Time : asd<span>{sp.toFixed(3)}</span>
       </p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
