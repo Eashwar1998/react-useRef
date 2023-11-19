@@ -25,6 +25,7 @@ export default function App() {
       <p>
         Elasped Time : asda<span>{sp.toFixed(3)}</span>
       </p>
+      <p>Changes from br2</p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
     </div>
