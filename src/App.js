@@ -29,7 +29,6 @@ export default function App() {
       <p>Changes from br2</p>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
-      <p>Changes from br3</p>
     </div>
   );
 }
